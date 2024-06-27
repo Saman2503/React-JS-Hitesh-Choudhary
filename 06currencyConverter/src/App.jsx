@@ -23,8 +23,6 @@ function App() {
   }
 
     return (
-    <>
-            <div className='grid grid-cols-2'>
                 <div
             className="w-full h-screen flex-wrap items-center bg-cover bg-no-repeat flex justify-end"
             style={{
@@ -77,12 +75,6 @@ function App() {
                 </div>
             </div>
         </div>
-            <div className='w-full h-screen flex-wrap items-center bg-cover bg-no-repeat flex justify-center'>
-                    <h1>Chai Aur React</h1>
-                    <img src="https://images.pexels.com/photos/2756843/pexels-photo-2756843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chai Aur Code" />
-            </div>
-    </div>
-    </>
     );
 }
 
